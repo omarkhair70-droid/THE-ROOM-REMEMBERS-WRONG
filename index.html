@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>THE ROOM REMEMBERS WRONG</title>
+  </head>
+  <body>
+    <main id="installation">
+      <video id="camera" autoplay playsinline muted></video>
+      <canvas id="memory"></canvas>
+      <div id="permission">
+        <button id="enter" type="button">ENTER</button>
+        <p>Camera processing stays on this device.</p>
+      </div>
+      <div id="status" aria-live="polite"></div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
